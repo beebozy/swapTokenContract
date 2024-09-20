@@ -3,8 +3,12 @@ pragma solidity ^0.8.24;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "./GUZtoken.sol";
+import "./web3Token.sol";
 
 contract SwapToken {
+
+    // I feel we should create a struct of depositor 
     address public owner;
     IERC20 public tokenAddress1;
     IERC20 public tokenAddress2;

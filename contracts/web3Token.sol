@@ -17,3 +17,8 @@ contract web3CXI is ERC20{
         _mint(account, amount);
     }
 }
+
+
+// 0x95e99D01DF7aDF3c7071b72ba536BDEaFe0108D9 web3token
+
+//  - https://sepolia-blockscout.lisk.com//address/0x95e99D01DF7aDF3c7071b72ba536BDEaFe0108D9#code
